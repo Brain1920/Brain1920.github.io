@@ -1,58 +1,79 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+title: "About Me"
+excerpt: "Zhituo Geng | PhD Applicant | Robotic Perception & Deep Reinforcement Learning"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+I am a PhD applicant from Shanghai Jiao Tong University with a strong background in robotic perception, path planning, and odor source localization. I hold a B.S. degree in Environmental Science and Engineering, and I have actively contributed to projects involving UAV-based gas source tracking, deep reinforcement learning, and intelligent sensor systems. My research integrates machine learning, control systems, and environmental sensing, aiming to build intelligent robotic systems for environmental applications.
 
-<span class='anchor' id='about-me'></span>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
-
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
-
+My research interests include reinforcement learning, Transformer architectures, and robotics. I have published in IEEE ECIS and am preparing a manuscript for submission to *Environmental Science & Technology*.
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.03*: 🎉 One paper accepted at IEEE ECIS 2025 on UAV-based odor source localization using vision transformers!
+- *2024.07*: 🚀 Started research assistantship on intelligent UAV systems for environmental monitoring.
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+<div class='paper-box'>
+  <div class='paper-box-image'>
+    <div>
+      <img src="images/conference.png" alt="Conference Paper" width="100%" style="margin-bottom: 10px;">
+    </div>
+  </div>
+  <div class='paper-box-text' markdown="1">
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+**[Efficient Gas Source Tracking in Turbulent Environments Using a Probabilistic Vision Transformer](#)**  
+*Zhituo Geng*, Yu Fu, Suncheng Xiang, Zehui Li*  
+*IEEE 2nd International Conference on Electronics, Communications and Intelligent Science*, 2025  
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+- Developed and tested a vision-transformer-enhanced framework for gas source tracking.
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
 
 # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.04*: Recipient of Open Fund Award, State Key Laboratory of Environmental Simulation and Pollution Control.
+- *2023.12*: Excellent Undergraduate Researcher, SJTU.
 
 # 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+- *2018.09 - 2024.07*, B.S. in Environmental Science and Engineering, Shanghai Jiao Tong University  
+  Core GPA: 82.8/100  
+  Selected Courses: Programming Methods, Electronics, Advanced Math, Statistics, Pattern Recognition and Machine Learning
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+- *2023.07 - 2023.09*, Data Research Intern, Shanghai Academy of Environmental Sciences  
+  Participated in environmental data modeling and spatial analysis.
+
+# 🔬 Research Experience
+- *2024.07 – Present*, **Research Assistant**, Zehui Li's Lab, SJTU  
+  - Designed a Transformer-PPO-based traceability agent for UAV odor tracking.  
+  - Integrated MOX sensor array with ML-based gas recognition (LSTM/ANN).  
+  - Conducted hardware optimization and sensor enclosure design for flight stability.  
+  - Published 1 conference paper; preparing a SCI journal manuscript.
+
+## ▶️ Project Images & System Schematics
+
+<div align="center">
+  <img src="images/uav.png" alt="UAV Demo" width="60%" style="margin: 10px 0;">
+  <p style="font-size: 0.9em;">Figure 1: Multi-rotor UAV with onboard sensor array and embedded system.</p>
+
+  <img src="images/experiment.png" alt="Odor Traceability" width="60%" style="margin: 10px 0;">
+  <p style="font-size: 0.9em;">Figure 2: Transformer-PPO based odor source localization framework.</p>
+
+  <img src="images/sensor.png" alt="Sensor Module" width="60%" style="margin: 10px 0;">
+  <p style="font-size: 0.9em;">Figure 3: Gas sensor PCB and 3D-printed enclosure.</p>
+</div>
+
+# ⚙ Professional Skills
+
+- **Machine Learning**: SVM, CNN, BP Neural Networks, Transformer, PPO, DQN  
+- **Robotics**: ROS, PX4, UAV control and simulation  
+- **Programming**: Python, C++, MATLAB; PyTorch, TensorFlow  
+- **Circuit & CAD**: Sensor circuit optimization, CAD/Fusion 360 modeling  
+- **Writing**: Technical reports, proposal writing, documentation standards
+
