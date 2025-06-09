@@ -37,8 +37,6 @@ My research interests include reinforcement learning, Transformer architectures,
 
 
 # 🎖 Honors and Awards
-- *2025.04*: Recipient of Open Fund Award, State Key Laboratory of Environmental Simulation and Pollution Control.
-- *2023.12*: Excellent Undergraduate Researcher, SJTU.
 
 # 📖 Educations
 - *2018.09 - 2024.07*, B.S. in Environmental Science and Engineering, Shanghai Jiao Tong University  
