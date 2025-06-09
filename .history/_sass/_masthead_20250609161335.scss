@@ -11,8 +11,7 @@
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
-  z-index: 20; /* 确保导航栏层级高于其他元素 */
-  padding-top: 60px;  /* 适当增加顶部间距，以避免内容被遮挡 */
+  z-index: 20;
 
   &__inner-wrap {
     @include container;
@@ -34,13 +33,8 @@
   }
 }
 
-/* 给标题元素添加 margin 防止被导航栏遮挡 */
-h1, h2, h3, h4, h5, h6 {
-  scroll-margin-top: 80px;  /* 根据导航栏的高度调整，确保标题不被遮挡 */
-}
-
-/* 继续保持其他样式不变 */
 .masthead__menu {
+
   ul {
     margin: 0;
     padding: 0;
@@ -66,3 +60,4 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
   }
 }
+
