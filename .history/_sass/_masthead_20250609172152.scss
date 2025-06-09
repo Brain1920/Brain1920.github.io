@@ -61,13 +61,14 @@
   }
 }
 
+导航留出，导航栏的余量
 
 /* 为所有锚点目标添加顶部内边距 */
 :target::before {
 content: "";
 display: block;
 height: 80px; /* 等于导航栏高度 */
-margin-top: -160px; /* 负值抵消 */
+margin-top: -80px; /* 负值抵消 */
 visibility: hidden;
 pointer-events: none;
 }
