@@ -61,10 +61,3 @@
   }
 }
 
-/* 锚点定位革命性方案 */
-.anchor-target {
-  display: block;
-  position: relative;
-  top: -120px;          /* 等于导航栏高度 + 安全距离 */
-  visibility: hidden;
-}
