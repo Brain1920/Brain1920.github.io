@@ -61,9 +61,9 @@ My research interests focus on the **intersection of artificial intelligence and
 
 # 🔬 Related Research Experience
 - *2024.07 – Present*, **Research Assistant, Zehui Li's Lab, SJTU** 
-  - Designed a Transformer-PPO-based traceability agent for UAV odor tracking.  
-  - Integrated MOX sensor array with ML-based gas recognition (LSTM/ANN).  
-  - Conducted hardware optimization and sensor enclosure design for flight stability.  
+  - Developed a deep reinforcement learning framework based on POMDP for olfactory navigation, and designed a traceability agent using Transformer PPO/DQN.
+  - Built a fully integrated multi-rotor UAV system with embedded MOX gas and wind sensors, enabling olfactory perception and real-time responsiveness via the UAV's ROS system.
+  - Optimized gas sensor circuits and designed sensor housings to improve system stability and structural compatibility.
   - Published 1 conference paper; 1 SCI journal manuscript is under review.
 
 ## ▶️ Project Images & System Schematics
